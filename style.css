@@ -1,0 +1,166 @@
+#n1{
+    float: right;
+    margin-top: -5px;
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#n1 ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+/* Orta Kısım */
+
+.container {
+    width: auto;
+    height: 100px;
+}
+
+.container1 {
+    width: auto;
+    height: 500px;
+}
+
+.logo {
+    display: block;
+    float: none;
+    margin: 150px auto 0 auto;
+
+}
+
+.searchBar {
+    height: 42px;
+    width: 578px;
+    margin: 26px auto 0 660px;
+    border: 1px solid #dcdcdc;
+    border-radius: 25px;
+}
+
+.searchBar:hover {
+    -webkit-box-shadow: 1px 1px 15px 1px rgba(222,222,222,0.35); 
+box-shadow: 1px 1px 15px 1px rgba(222,222,222,0.35);
+}
+
+.searchBar:focus-within{
+    box-shadow: 1px 1px 15px 1px rgba(222,222,222,0.35);
+    outline:none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.btn {
+    float: none;
+    position: relative;
+    display: inline-block;
+    left: 769px;
+    margin-top: 29px;
+    height: 36px;
+    padding: 0 16px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    line-height: 10px;
+    cursor: pointer;
+    border: 1px solid #f8f9fa;
+    margin-left: 8px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    border: 1px solid #c9c8c8;
+}
+
+.btn:focus {
+    border: 1px solid rgb(36, 36, 165);
+}
+
+p {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    display: block;
+    text-align: center;
+    margin-top: 29px;
+}
+
+#tr div p {
+
+    text-align: left;
+    margin-left: 22px;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: #70757a;
+    background-color: rgba(102, 102, 102, 0);
+    padding-top: 15px;
+}
+
+.d1{
+    height: 48px;
+    margin-top: 115px;
+    background-color:  #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+}
+
+#contact ul div li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    margin-left: -8px;
+    margin-right: 40px;
+    color: #70757a;
+    background-color:  #f2f2f2;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+#contact ul div li a {
+    color: #70757a;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.d2 {
+    background-color:  #f2f2f2;
+}
+
+#contact ul {
+    background-color:  #f2f2f2;
+}
+
+footer {
+    background-color:  #f2f2f2;
+}
+
+.li-right {
+    float: right;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.li-mid {
+    position: relative;
+    left: 400px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
